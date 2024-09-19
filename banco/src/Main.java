@@ -3,10 +3,10 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         Cliente cliente1;
-        cliente1 = new Cliente(3273737273, "cliente1", LocalDate.of(1987,7,16));
+        cliente1 = new Cliente(3273737273L, "cliente1", LocalDate.of(1987,7,16));
 
         Cliente cliente2;
-        cliente2 = new Cliente(1823838283, "cliente2", LocalDate.of(1987,7,16));
+        cliente2 = new Cliente(1823838283L, "cliente2", LocalDate.of(1987,7,16));
 
         Conta cc = new ContaCorrente(cliente1);
         Conta pp = new Poupanca(cliente2);
